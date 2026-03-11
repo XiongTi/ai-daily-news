@@ -1,12 +1,10 @@
 // src/dataFetchers.js
 import NewsAggregatorDataSource from './dataSources/newsAggregator.js';
-import GithubTrendingDataSource from './dataSources/github-trending.js';
 
 
 // Register data sources as arrays to support multiple sources per type
 export const dataSources = {
     news: { name: '新闻', sources: [NewsAggregatorDataSource] },
-    project: { name: '项目', sources: [GithubTrendingDataSource] },
 };
 
 /**

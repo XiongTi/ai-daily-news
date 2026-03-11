@@ -19,7 +19,6 @@ FOLO_DATA_API = "https://api.folo.is/entries"
 FOLO_FILTER_DAYS = 2
 NEWS_AGGREGATOR_LIST_ID = "253794950504141824"
 NEWS_AGGREGATOR_FETCH_PAGES = "1"
-PROJECTS_API_URL = "https://github-trending-api.de/repositories?since=daily"
 GITHUB_REPO_OWNER = "XiongTi"
 GITHUB_REPO_NAME = "ai-daily-news"
 GITHUB_BRANCH = "main"
