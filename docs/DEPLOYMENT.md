@@ -32,8 +32,8 @@
 
 - **克隆项目代码**:
   ```bash
-  git clone https://github.com/justlovemaki/CloudFlare-AI-Insight-Daily.git
-  cd CloudFlare-AI-Insight-Daily
+  git clone https://github.com/XiongTi/ai-daily-news.git
+  cd ai-daily-news
   ```
 
 #### 2. 配置环境变量

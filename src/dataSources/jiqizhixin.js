@@ -28,7 +28,7 @@ const JiqizhixinDataSource = {
                 'accept': 'application/json',
                 'accept-language': 'zh-CN,zh;q=0.9',
                 'baggage': 'sentry-environment=stable,sentry-release=5251fa921ef6cbb6df0ac4271c41c2b4a0ce7c50,sentry-public_key=e5bccf7428aa4e881ed5cb713fdff181,sentry-trace_id=2da50ca5ad944cb794670097d876ada8,sentry-sampled=true,sentry-sample_rand=0.06211835167903246,sentry-sample_rate=1',
-                'origin': 'https://app.follow.is',
+                'origin': 'https://app.folo.is',
                 'priority': 'u=1, i',
                 'sec-ch-ua': '"Google Chrome";v="135", "Not-A.Brand";v="8", "Chromium";v="135"',
                 'sec-ch-ua-mobile': '?1',
@@ -37,12 +37,12 @@ const JiqizhixinDataSource = {
                 'sec-fetch-mode': 'cors',
                 'sec-fetch-site': 'same-site',
                 'x-app-name': 'Folo Web',
-                'x-app-version': '0.4.9',
+                'x-app-version': '1.3.1',
             };
 
             // 直接使用传入的 foloCookie
             if (foloCookie) {
-                headers['Cookie'] = foloCookie;
+                headers['Cookie'] = `__Secure-better-auth.session_token=${foloCookie}`;
             }
 
             const body = {
